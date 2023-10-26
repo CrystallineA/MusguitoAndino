@@ -155,6 +155,14 @@ a:hover{
     box-sizing: border-box;
 }
 
+#app{
+    display: grid;
+    justify-content: center;
+    background-color: wheat;
+    padding: 10px;
+
+}
+
 #formulario{
     width: 40%;
     background-color: rgba(64, 84, 20, 0.87);
@@ -165,7 +173,7 @@ a:hover{
     margin-bottom: 100px;
     border-radius: 5px;
 }
-#opiniones{
+.opiniones{
     display: block;
     justify-content: space-around;
     align-self: center;
@@ -182,6 +190,8 @@ a:hover{
     justify-content: space-between;
     margin-top: 20px;
 }
+
+
 
 @media screen and (max-width: 920px){
     .contenedor{

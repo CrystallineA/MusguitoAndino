@@ -6,7 +6,6 @@
     <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital@1&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="estilos.css">
     <title>Musguito Andino</title>
-    
 
 </head>
 
@@ -26,23 +25,20 @@
         <h1>Contactame!</h1>
         <p>si tenes alguna consulta sobre los productos o si tenes alguna idea para hacerte un producto personalizado, podes dejarlo en esta cajita y te respondere en breve.</p>
         <br>
-        <table>
+        <form name="formulario" method="get">
             <label for="nombre">Nombre: </label>
-            <input type="text" name="Nombre" id="nombre" placeholder="ingrese su nombre aqui...">
+            <input type="text" name="nombre" maxlength="30" id="nombre"  placeholder="ingrese su nombre aqui..." >
             <br><br>
-            <label for="nombre">Apellido: </label>
-            <input type="text" name="Apellido" id="Apellido" placeholder="ingrese su apellido aqui...">
-            <br><br>
-            <label for="mail">Mail: </label>
+            <label for="email">Mail: </label>
             <input type="email" name="email" id="email" placeholder="escriba su email aqui...">
             <br><br>
             <label for="consultas">consulta: </label>
             <br>
             <textarea name="consultas" id="consultas"  rows="10"></textarea>
             <br>
-            <input type="submit" value="Enviar">
+            <input type="submit" value="Enviar" id="btn">
             <input type="reset" value="Borrar">
-        </table>
+        </form>
         </div>
     </main>
 
@@ -55,5 +51,6 @@
         <p>creado por Catalina Alcalde</p>
     </footer>
     </div>
+    <script src="validacion.js"></script>
 </body>
 </html>
